@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Remoting.Proxies;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _3_CriandoVariaveisPontoFlutuante
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("codgo abaixo");
+
+        //Criando Variaveis Ponto Flutuante.
+            double brindes = 5.5;
+            int pessoas = 4;
+            Console.WriteLine(brindes * pessoas);
+
+            Console.WriteLine("Execução finalizada! Aperte ENTER para fechar...");
+            Console.ReadLine();
+        }
+    }
+}
