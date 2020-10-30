@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _4_ConversoesEOutrosTiposNumericos
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Executando o Projeto 4");
+
+         //Armazonemento de variaveis.
+
+            // O Tipo "Float" Tem Capacidade De Armazenamento De 32Bits.
+            float pontoFlutuante = 3.14F;
+            Console.WriteLine(pontoFlutuante);
+
+            // O Tipo "Double" Tem Capacidade De Amrmazenamento De 64Bits.
+            double salario = 1270.50;
+            int valor = (int) salario;
+            Console.WriteLine(valor);
+
+            double valor1 = 0.2;
+            double valor2 = 0.1;
+            double total = valor1 + valor2;
+            Console.WriteLine(total);
+
+            
+
+            // O Tipo "SHORT" Tem Capacidade De Armazenamento De 16Bits.
+            short intTipo1 = 15000;
+            Console.WriteLine(intTipo1);
+
+            // O Tipo "INT" Tem Capacidade De Armazenamento De 32Bits.
+            int intTipo2 = 1000000000;
+            Console.WriteLine(intTipo2);
+
+            //O Tipo "LONG" Tem Capacidade De Armazenamento De 64Bits.
+            long intTipo3 = 1000000000000000;
+            Console.WriteLine(intTipo3);
+
+            Console.ReadLine();
+        }
+    }
+}
