@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _2_CriandoVariaveis
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Executando projeto 2 - Criando Variaveis");
+        
+         //Criando variaveis tipo int.
+            int idade;
+            idade = 32;
+                Console.WriteLine("A variavel 'idade' foi declarada como 'int' e o valor atribuido foi " + idade + "!");
+
+        //Criando Variaveis tipo int com soma.
+            int soma;
+            soma = 10 + 10;
+                Console.WriteLine("A variavel 'soma' foi declarada como 'int' e o valor atribuido foi " + soma + "!");
+
+            soma = (10 + 5) * 2;
+                Console.WriteLine("O segundo valor atribuido a variavel 'soma' foi de " + soma + "!");
+ 
+            Console.WriteLine("execução finalizada. Tecle enter para continuar");
+            Console.ReadLine();
+        }
+    }
+}
