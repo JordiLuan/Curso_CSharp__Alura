@@ -10,7 +10,7 @@ namespace _6_AtribuicoesDeVariaveis
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Executando o projeto 6");
+            Console.WriteLine("Executando o projeto 6 - Atribuicoes De Variaveis");
             /*quando mudamos a variavel idade, a variavel idadeGustavo nao ira mudar*/
 
             int idade = 32;
